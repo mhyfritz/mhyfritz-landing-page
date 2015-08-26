@@ -1,4 +1,4 @@
-all: build dist
+all: dist
 
 .PHONY: build dist outdirs clean
 
