@@ -7,7 +7,7 @@ DISTDIR = dist
 build: css/style.css
 
 css/style.css: css/style.scss
-	sass $<:$@
+	node-sass $< $@
 
 dist: outdirs build
 	cp index.html $(DISTDIR)
