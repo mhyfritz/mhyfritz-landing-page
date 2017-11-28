@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Qwigley);
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #070213;
+  height: 100vh;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.name {
+  font-family: 'Qwigley', cursive;
+  font-size: 7vmin;
+  color: white;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+a {
+  display: inline-block;
+  color: ghostwhite;
+  text-decoration: none;
+  margin-right: 5px;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+a:last-of-type {
+  margin-right: 0;
+}
+
+a:hover {
+  color: rgba(245, 245, 20, .95);
+}
