@@ -37,7 +37,7 @@ function generateParticle () {
 
 function draw () {
   context.clearRect(0,0, canvas.width, canvas.height)
-  context.fillStyle = 'rgba(245, 245, 20, .95)'
+  context.fillStyle = 'rgba(255, 255, 0, .9)'
   context.beginPath()
   for (var i = 0; i < n; i += 1) {
     var particle = particles[i]
